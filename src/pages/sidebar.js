@@ -44,7 +44,7 @@ function Sidebar() {
           */}
           <li className={`${getNavLinkClass('/about')}`}>
             <Link to="/about" onClick={closeSidebar}>
-              <img src={aboutSvg}/>
+              <img src={aboutSvg  }/>
               <p className={`${isOpen ? 'show' : 'hide'}`}>Link</p>
             </Link>
           </li>
